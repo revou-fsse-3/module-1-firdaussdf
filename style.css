@@ -1,0 +1,82 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto" , sans-serif;
+}
+
+header {
+    text-align: center;
+	color: rgb(2, 51, 26);
+	font-family: arial;
+    outline: dashed 1px rgb(5, 110, 84);
+
+}
+/**
+ * Layout
+ */
+ body {
+	margin: 0 auto;
+	max-width: 40em;
+	width: 88%;
+	background-color: aquamarine;
+}
+
+.section {
+	color: #ffffff;
+	height: 75vh;
+	margin: 0;
+}
+
+#a { background-color: #0074d9; }
+#b { background-color: #2ecc40; }
+#c { background-color: #ff851b; }
+#d { background-color: #b10dc9; }
+
+h2 {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+.list-inline {
+	list-style: none;
+	margin-left: -0.5em;
+	margin-right: -0.5em;
+	padding: 0;
+}
+
+.list-inline > li {
+	display: inline-block;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.list-inline > li:before {
+	content: "\200B"; /* 1 */
+	position: absolute; /* 2 */
+}
+
+.grid-container
+{ display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+
+}
+
+img 
+{
+ width: 300px;
+}
+
+  
+
+body {
+    color: black;
+  }
+
+ul {
+    list-style-type: square; /* Persegi */
+}
