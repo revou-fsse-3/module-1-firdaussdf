@@ -35,3 +35,7 @@ if you want to know about pc you can learn https://instrumentationtools.com/free
 |  |omron      |
 |USA  |Rockwell      |
 | |Allen Bradley      |
+
+
+### Example PLC Manufacturer
+You can see my Manufacturing machine in my website https://magnificent-faun-bd0934.netlify.app/
