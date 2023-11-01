@@ -18,7 +18,7 @@ Traffic control is often used a simple introduction into sequencing when program
 
 ### PLC HELLO MIXING TANK
 
-![MIXING_TANK](https://raw.github.com/tkucic/plc_hello_mixing_tank/master/screenshot.gif){:class="img-responsive"}
+![MIXING_TANK](https://raw.github.com/tkucic/plc_hello_mixing_tank/master/screenshot.gif)
 
 In industrial automation the "hello world" program is a mixing tank. As a part of my portfolio I have written a simple mixing tank controller and a simulator. The project is meant for beginners and for educational purposes. 
 

@@ -1,22 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,
    initial-scale=1.0">
   <link rel="stylesheet" href="style.css" />
   <title>Layout dengan Elemen Semantik</title>
   <link rel="stylesheet" href="responsive.css" />
 </head>
-
 <body>
-
-  <header>
-    <h1>Mesin Produksi</h1>
-  </header>
-
   <nav class="sticky">
     <ul class="list-inline">
       <li><a href="#a">Home</a></li>
@@ -25,60 +17,46 @@
       <li><a href="#d">Telphone</a></li>
     </ul>
   </nav>
-
-
+ <header class="full-screen" id="header">
+    <h1>Machine production</h1>
+    <p>all of machine production</p>
+ </header>
   <main>
    <article>
-    <h1>MESIN PRODUKSI MANUFAKTUR</h1>
-    <p>Mesin produksi adalah mesin yang digunakan untuk memproduksi barang dalam skala besar
+     <h1>MESIN PRODUKSI MANUFAKTUR</h1>
+       <p>Mesin produksi adalah mesin yang digunakan untuk memproduksi barang dalam skala besar
        .Biasanya mesin produksi dapat digunakan dalam berbagai jenis industri, seperti industri makanan, farmasi, otomotif, dan lain-lain.
-    </p>
-  </article>
+       </p>
+   </article>
 
   <section id="penguin-photos">
     <h2>Mesin Produksi</h2>
-    <div class="grid-container">
+    <div class="mesin-produksi">
       <div id="item-1">
-        <img
-          src="https://www.mechanicalbooster.com/wp-content/uploads/2016/12/Main-parts-of-vertical-milling-machine.jpg"
+        <img src="https://www.mechanicalbooster.com/wp-content/uploads/2016/12/Main-parts-of-vertical-milling-machine.jpg"
           alt="mesin milling."
         />
     
       </div>
       <div id="item-2">
-        <img
-          src="https://ravimachines.com/wp-content/uploads/2016/07/Pillar-Drilling-Machine-scaled.jpg"
+        <img src="https://ravimachines.com/wp-content/uploads/2016/07/Pillar-Drilling-Machine-scaled.jpg"
           alt="mesin bor."
         />
       </div>
       <div id="item-3">
-        <img
-          src="https://scemama.ch/wp-content/uploads/2020/10/2170089-01-3.jpg"
+        <img src="https://scemama.ch/wp-content/uploads/2020/10/2170089-01-3.jpg"
           alt="mesin gerinda."
         />
       </div>
+      <div class="img-4">
+        <img src="https://alatsmk.com/storage/products/1/Alat%20Mesin%20Pertanian/Universal%20Milling.jpg" 
+        alt="mesin frais">
     </div>
-  </section>
-
-  <section id="penguin-facts">
-    <h2>manufacturing machine is used to</h2>
-    <div class="flex-container">
-      <ul>
-        <li>cut </li>
-        <li>drill strong</li>
-        <li> metal process</li>
-        <li>solid material</li>
-      </ul>
-      <figure>
-        <img
-          src="https://yenaengineering.nl/wp-content/uploads/2019/11/machining3-1024x683.jpg"
-          alt="milling process"
-        />
-        <figcaption>lathe <em>machine</em> proccess.</figcaption>
-      </figure>
     </div>
-  </section>
-
+  </section 
+  <div class="flex-container">
+    <div class="gambar-kecil"></div>
+  </div>
   <section id="form-section">
     <h2>Are you interest with manufacturing machine ?</h2>
     <form action="#">
@@ -88,7 +66,6 @@
           <label for="fullName">Full Name:</label>
           <input id="fullName" type="text" required />
         </div>
-
         <div>
           <p>Province</p>
          <select class="form-control m-bootstrap-select m_selectpicker" tabindex="-98" name="regional_code" required="">
@@ -195,9 +172,7 @@
               KALIMANTAN UTARA
           </option>
          </select>
-
         </div>
-
         <div>
           <p>Are you living in Indonesia?</p>
           <input type="radio" id="yes" name="isIndonesia" value="Male" />
@@ -245,14 +220,12 @@
     <input type ="button"
     value="say hello"
         onclick="hello()">
-
  <script src="main.js"></script>
   </section>
   </main>
   <footer class="my-footer">
     Copyright  2023
   </footer>
-
 </body>
 
 </html>

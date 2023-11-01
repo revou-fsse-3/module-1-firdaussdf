@@ -1,15 +1,58 @@
-*, html, body {
+body {
     margin: 0;
     padding: 0;
     font-family: "Roboto" , sans-serif;
 }
-
+nav {
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	height: 60px;
+	border-bottom: 3px solid #222;
+  }
+.mobile {
+	margin: 15px;
+	padding: 5px;
+  }
+nav ul {
+	margin-left: auto;
+	margin-right: 20px;
+  }
+nav ul a:hover {
+	background-color: #222;
+	padding: 10px;
+	color: #fff;
+  }
+nav ul li {
+	display: inline-block;
+  }
+nav ul li a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #222;
+	font-size: 15px;
+  }
+nav span {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+  }
 header {
-    text-align: center;
-	color: rgb(2, 51, 26);
 	font-family: arial;
     outline: dashed 1px rgb(5, 110, 84);
-
+	text-align: center;
+  	color: rgb(211, 241, 215);
+  	height: 320px;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	padding-top: 48px;
+}
+.full-screen {
+	background: url( https://www.inventiva.co.in/wp-content/uploads/2023/03/Industrial-Machinery-780x470.webp);
+	background-size: cover;
 }
 /**
  * Layout
@@ -17,76 +60,86 @@ header {
  body {
 	margin: 0 auto;
 	max-width: 100em;
-	width: 88%;
-	background-color: aquamarine;
+	width: 100%;
+	background-color: rgb(47, 61, 56);
 }
-
 .sticky {
-	background-color: #98E4FF;
+	background-color: #708c96;
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 	font-size: 18px;
 }
-
 .section {
 	color: #ffffff;
 	height: 75vh;
 	margin: 0;
 }
-
-
-
 h2 {
 	margin: 0;
 	padding: 0;
 }
+.grid-container {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
 
-
+}
+  /* Create two equal columns that sits next to each other */
+  .column {
+	flex: 50%;
+	padding: 0 4px;
+} 
+  .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+}
 .list-inline {
 	list-style: none;
 	margin-left: -0.5em;
 	margin-right: -0.5em;
 	padding: 0;
 }
-
 .list-inline > li {
 	display: inline-block;
 	margin-left: 0.5em;
 	margin-right: 0.5em;
 }
-
 .list-inline > li:before {
 	content: "\200B"; /* 1 */
 	position: absolute; /* 2 */
 }
-
-.grid-container
-{ display: flex;
-  align-items: center;
-  align-content: center;
-  flex-direction: column;
-
-}
-
-img 
-{
- width: 300px;
-}
-
-  
-
 body {
     color: black;
-  }
-
+}
 ul {
     list-style-type: square; /* Persegi */
 }
-
 .my-footer {
 	background-color: #687EFF; /* Replace with your desired color */
 	font-size: 18px;
 	margin-top: 5px;
     margin-bottom: 5px;
 }  
+.mesin-produksi {
+	margin-right: 60px;
+	display: grid;
+	gap: 30px;
+	grid-template-columns: repeat(2, 1fr);
+	width: 100%;
+}
+img {
+	width: 100%;
+}
+.flex-container{
+    display: flex;
+    justify-content: center; /* Meng-center secara horizontal */
+    align-items: center; /* Meng-center secara vertikal */
+	height: 100vh;
+}
+.gambar-kecil{
+	width: 300px; /* Lebar gambar */
+  height: 200px; /* Tinggi gambar */
+	background-image: url('https://www.birlasoft.com/sites/default/files/common/use-cases-of-ai-in-manufacturing-industry.svg');
+	background-size: cover; /* Untuk memastikan gambar mengisi area elemen *
+ }
